@@ -1,0 +1,28 @@
+{
+  "name": "eshelper",
+  "version": "0.0.2",
+  "description": "ES helper for rubahjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha",
+    "preversion": "npm test",
+    "version": "git add .",
+    "postversion": "git push",
+    "preinstall": "ncu -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://averman:AverGithub1@github.com/averman/eshelper.git"
+  },
+  "author": "Averman@Gmail.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/averman/eshelper/issues"
+  },
+  "homepage": "https://github.com/averman/eshelper#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  }
+}
