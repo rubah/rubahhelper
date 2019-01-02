@@ -29,7 +29,7 @@ function jsxGen(data,prefix){
 }
 
 module.exports = {
-    helperName: 'json',
+    helperName: 'jsx',
     handlebars: function(data) {
         return jsxGen([data]);
     },

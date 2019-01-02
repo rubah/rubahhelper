@@ -1,6 +1,6 @@
 {
   "name": "rubahelper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Additional helper for rubahjs",
   "main": "index.js",
   "scripts": {

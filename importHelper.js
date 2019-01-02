@@ -8,7 +8,7 @@ module.exports = {
         return data;
     },
     map: function(value) {
-        const regex = /import (.*?)from['"](.*?)['"];/
+        const regex = /import (.*?)from ['"](.*?)['"];/
         const bracket = /{(.*)}/
         value = value.trim();
         const res = {};

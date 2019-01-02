@@ -3,7 +3,7 @@ const jsonHelper = require("./jsonHelper");
 const jsxHelper = require("./jsxHelper");
 
 module.exports = {
-    importHelper,
-    jsonHelper,
-    jsxHelper
+    importHelper: importHelper,
+    jsonHelper: jsonHelper,
+    jsxHelper: jsxHelper
 }
