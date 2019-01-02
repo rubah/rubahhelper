@@ -1,14 +1,14 @@
 {
-  "name": "eshelper",
-  "version": "0.0.2",
-  "description": "ES helper for rubahjs",
+  "name": "rubahelper",
+  "version": "0.1.0",
+  "description": "Additional helper for rubahjs",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha",
     "preversion": "npm test",
     "version": "git add .",
     "postversion": "git push",
-    "preinstall": "ncu -u"
+    "preinstall": "ncu -a"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,17 @@
     "url": "https://github.com/averman/eshelper/issues"
   },
   "homepage": "https://github.com/averman/eshelper#readme",
-  "dependencies": {},
+  "dependencies": {
+    "escodegen": "^1.11.0",
+    "espree": "^5.0.0",
+    "estraverse": "^4.2.0",
+    "lodash.compact": "^3.0.1",
+    "lodash.get": "^4.4.2",
+    "lodash.set": "^4.3.2"
+  },
   "devDependencies": {
     "mocha": "^5.2.0",
-    "nyc": "^13.1.0"
+    "nyc": "^13.1.0",
+    "rubahjs": "^0.1.9"
   }
 }
