@@ -1,9 +1,10 @@
-const importHelper = require("./importHelper");
-const jsonHelper = require("./jsonHelper");
-const jsxHelper = require("./jsxHelper");
+const importHelper = require("./src/helper/importHelper");
+const jsonHelper = require("./src/helper/jsonHelper");
+const jsxHelper = require("./src/helper/jsxHelper");
+const commentHelper = require("./src/helper/commentHelper");
+const blockBuilder = require("./src/builder/blockBuilder");
+const staticMarkBlock = require("./src/blocks/staticMarkBlock");
 
 module.exports = {
-    importHelper: importHelper,
-    jsonHelper: jsonHelper,
-    jsxHelper: jsxHelper
+    importHelper,jsonHelper, jsxHelper, commentHelper, blockBuilder, staticMarkBlock
 }

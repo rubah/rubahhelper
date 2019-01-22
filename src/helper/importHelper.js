@@ -5,7 +5,7 @@ module.exports = {
         for(const key in data){
             res+='import '+key+' from "'+data[key]+'";\n';
         }
-        return data;
+        return res;
     },
     map: function(value) {
         const regex = /import (.*?)from ['"](.*?)['"];/
