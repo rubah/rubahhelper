@@ -13,10 +13,11 @@ module.exports = function(type, start, end, options){
             let idx = -1;
             do{
                 if(!value) break;
-                let start = value.indexOf(this.start);
+                let start = value.indexOf(this.start, idx+1);
                 const begin = start;
                 if (!this.inclusive) start = start + this.start.length;
-                let end = value.indexOf(this.end);
+                let end = value.indexOf(this.end, idx+1);
+                idx = end;
                 const remPos = end + this.end.length;
                 if (this.inclusive) end = remPos;
                 if (start > -1 && end > -1) {

@@ -4,12 +4,19 @@ const jsxHelper = index.jsxHelper;
 const jsonHelper = index.jsonHelper;
 const importHelper = index.importHelper;
 const commentHelper = index.commentHelper;
+const yamlHelper = index.yamlHelper;
 
 describe("jsonHelper",function(){
     it("should reverse jsonHelper",function(done){
         const a = {a: {b: {c: 1}}};
         const json = jsonHelper.handlebars(a);
         assert.deepEqual(jsonHelper.map(json),a);
+        done();
+    });
+    it("should reverse yamlHelper",function(done){
+        const a = {a: {b: {c: 1}}};
+        const yaml = yamlHelper.handlebars(a);
+        assert.deepEqual(yamlHelper.map(yaml),a);
         done();
     });
     

@@ -1,18 +1,17 @@
 {
   "name": "rubahhelper",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Additional helper for rubahjs",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha",
     "preversion": "npm test",
     "version": "git add .",
-    "postversion": "git push",
-    "preinstall": "ncu -a"
+    "postversion": "git push"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://averman:AverGithub1@github.com/averman/eshelper.git"
+    "url": "git+https://github.com/averman/eshelper.git"
   },
   "author": "Averman@Gmail.com",
   "license": "GPL-3.0",
@@ -27,7 +26,10 @@
     "estraverse": "^4.2.0",
     "lodash.compact": "^3.0.1",
     "lodash.get": "^4.4.2",
-    "lodash.set": "^4.3.2"
+    "lodash.set": "^4.3.2",
+    "markdown": "^0.5.0",
+    "turndown": "^5.0.1",
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {
     "mocha": "^5.2.0",
