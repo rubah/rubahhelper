@@ -1,6 +1,6 @@
 {
   "name": "rubahhelper",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Additional helper for rubahjs",
   "main": "index.js",
   "scripts": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/averman/eshelper.git"
+    "url": "git+https://github.com/rubah/rubahhelper.git"
   },
   "author": "Averman@Gmail.com",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/averman/eshelper/issues"
+    "url": "https://github.com/rubah/rubahhelper/issues"
   },
-  "homepage": "https://github.com/averman/eshelper#readme",
+  "homepage": "https://github.com/rubah/rubahhelper#readme",
   "dependencies": {
     "escodegen": "^1.11.0",
     "espree": "^5.0.0",
